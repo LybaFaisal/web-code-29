@@ -63,3 +63,10 @@ let list2=['G','H','I','J','K','L'];
 
 let combined_lists= (list1).concat(list2);
 console.log(combined_lists);
+
+//Logic # 3
+//To string conversion
+
+let numeric_values=[0,1,2,3,4,5,6,7,8,9,10];
+
+console.log(numeric_values.toString());
