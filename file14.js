@@ -54,3 +54,12 @@ console.log(join_array2.join('^'));
 let word_array=['My','name','is','Lyba','.'];
 
 console.log(word_array.join(" "));    //generate a proper sentence
+
+//Logic # 2
+//concat both lists
+
+let list1=['A','B','C','D','E','F'];
+let list2=['G','H','I','J','K','L'];
+
+let combined_lists= (list1).concat(list2);
+console.log(combined_lists);
