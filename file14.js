@@ -53,7 +53,7 @@ console.log(join_array2.join('^'));
 
 let word_array=['My','name','is','Lyba','.'];
 
-console.log(word_array.join(" "));    //generate a proper sentence
+console.log(`The sentence is: ${word_array.join(" ")}`);    //generate a proper sentence
 
 //Logic # 2
 //concat both lists
@@ -62,7 +62,7 @@ let list1=['A','B','C','D','E','F'];
 let list2=['G','H','I','J','K','L'];
 
 let combined_lists= (list1).concat(list2);
-console.log(combined_lists);
+console.log(`The combined list of both arrays after concatination: ${combined_lists}`);
 
 //Logic # 3
 //To string conversion
@@ -76,4 +76,5 @@ console.log(numeric_values.toString());
 
 let data_array=[2,'Robert','Max','Plank','Bohr','a',50,'I'];
 
-console.log(data_array.length);
+console.log(`The length of array is: ${data_array.length}`);
+
