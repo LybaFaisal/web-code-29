@@ -78,3 +78,9 @@ let data_array=[2,'Robert','Max','Plank','Bohr','a',50,'I'];
 
 console.log(`The length of array is: ${data_array.length}`);
 
+//Logic # 5
+//join()
+
+let names=['Haya,','Jahan,','Taliya,','Salar,','Imama,','and','Fateh'];
+
+console.log(`Ni hao! ${names.join(' ')}`);
