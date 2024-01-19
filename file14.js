@@ -42,3 +42,9 @@ console.log((array4).concat(array5).concat(array6));
 let join_array=['Max','James','Sofia','Ballerina','Snowwhite','Elsa','Anna'];
 
 console.log(join_array.join('+'));
+
+//join() Ex2
+
+let join_array2=[1,2,3,4,5,6,7,8,9,10];
+
+console.log(join_array2.join('^'));
