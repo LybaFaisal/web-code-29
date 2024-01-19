@@ -20,3 +20,11 @@ console.log(str_array.toString());
 let str2=[1,2,3,4,5,6,7,8,9,10];
 
 console.log(str2.toString());
+
+//concat() String EX1
+
+let array1=[2,4,6,8,10,12,14,16,18,20];
+let array2=['Lyba','Laiba','Layba','Laeba'];
+let array3=['a','b','c','d','e','f'];
+
+console.log((array1).concat(array2).concat(array3));
