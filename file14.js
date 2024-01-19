@@ -70,3 +70,10 @@ console.log(combined_lists);
 let numeric_values=[0,1,2,3,4,5,6,7,8,9,10];
 
 console.log(numeric_values.toString());
+
+//Logic # 4
+//array length
+
+let data_array=[2,'Robert','Max','Plank','Bohr','a',50,'I'];
+
+console.log(data_array.length);
