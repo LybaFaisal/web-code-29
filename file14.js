@@ -8,3 +8,9 @@ console.log(num.length);
 
 let len=['Lyba','Ayesha','Amna','Naveeda'];
 console.log(len.length);
+
+//To String Example 1
+
+let str_array=['Corolla','City','Mehran','Move','Fortuner','Owdy'];
+
+console.log(str_array.toString());
