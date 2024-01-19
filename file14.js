@@ -36,3 +36,9 @@ let array5=["Odd Numbers"];
 let array6=["Mathematics Team"];
 
 console.log((array4).concat(array5).concat(array6));
+
+//join() EX1
+
+let join_array=['Max','James','Sofia','Ballerina','Snowwhite','Elsa','Anna'];
+
+console.log(join_array.join('+'));
