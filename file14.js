@@ -28,3 +28,11 @@ let array2=['Lyba','Laiba','Layba','Laeba'];
 let array3=['a','b','c','d','e','f'];
 
 console.log((array1).concat(array2).concat(array3));
+
+//Concat() EX2
+
+let array4=[1,3,5,7,9,11,13,15];
+let array5=["Odd Numbers"];
+let array6=["Mathematics Team"];
+
+console.log((array4).concat(array5).concat(array6));
