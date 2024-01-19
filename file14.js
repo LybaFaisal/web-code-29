@@ -48,3 +48,9 @@ console.log(join_array.join('+'));
 let join_array2=[1,2,3,4,5,6,7,8,9,10];
 
 console.log(join_array2.join('^'));
+
+//Logic # 1
+
+let word_array=['My','name','is','Lyba','.'];
+
+console.log(word_array.join(" "));    //generate a proper sentence
