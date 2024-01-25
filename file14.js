@@ -91,3 +91,11 @@ let[Name1,Name2,Name3]=["Nobita","Shizuka","Sunyo"];
 
 console.log(Name2);
 console.log(Name1);
+
+//Similar example
+
+let fruits=["Apple","Mango","Pear"];
+let[Fruit1,Fruit2,Fruit3]= fruits;
+
+console.log(Fruit2);
+console.log(Fruit1);
