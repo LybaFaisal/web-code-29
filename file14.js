@@ -99,3 +99,13 @@ let[Fruit1,Fruit2,Fruit3]= fruits;
 
 console.log(Fruit2);
 console.log(Fruit1);
+
+//Example 3
+// swapping:
+
+let num1= 6;
+let num2= 7;
+
+[num1,num2]=[num2,num1];
+
+console.log(num1,num2);
