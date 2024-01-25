@@ -125,3 +125,11 @@ let [primary, ...secondary]=colors;
 
 console.log(primary);
 console.log(secondary);
+
+//Ignoring elements using Rest Op
+
+let[head, , , ...tail]=[10,2,3,20,30,40,50];
+//ignoring 2,3
+
+console.log(head);
+console.log(tail);
