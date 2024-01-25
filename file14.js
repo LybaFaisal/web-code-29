@@ -116,3 +116,12 @@ let coordinates= [10,20,30,40,50,60,70];
 let[x,y, ,a,b, ,d]=coordinates;
 
 console.log(x,y,a,b,d);
+
+//Rest / spread operator  (...)
+
+let colors= ["red","yellow","green","purple","pink","black"];
+
+let [primary, ...secondary]=colors;
+
+console.log(primary);
+console.log(secondary);
