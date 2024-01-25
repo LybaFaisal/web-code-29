@@ -84,3 +84,10 @@ console.log(`The length of array is: ${data_array.length}`);
 let names=['Haya,','Jahan,','Taliya,','Salar,','Imama,','and','Fateh'];
 
 console.log(`Ni hao! ${names.join(' ')}`);
+
+//array destructuring
+
+let[Name1,Name2,Name3]=["Nobita","Shizuka","Sunyo"];
+
+console.log(Name2);
+console.log(Name1);
