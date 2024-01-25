@@ -109,3 +109,10 @@ let num2= 7;
 [num1,num2]=[num2,num1];
 
 console.log(num1,num2);
+
+//skipping Elements
+
+let coordinates= [10,20,30,40,50,60,70];
+let[x,y, ,a,b, ,d]=coordinates;
+
+console.log(x,y,a,b,d);
