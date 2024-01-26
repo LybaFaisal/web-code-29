@@ -218,3 +218,13 @@ let points=[1,2,3,4,5,6,7];
 let[p,q,r, , ,u,v]=points;
 
 console.log(p,q,r,u,v);
+
+//Q#8
+//Rest Parameter with Array Destructuring
+
+let Novels=["JKP","Mushaf","Peer-e-Kamil","Maala","Namal","Ab-e-Hayat"];
+
+let [first,second, ...Others]=Novels;
+
+console.log(first,second);
+console.log(Others);
