@@ -189,3 +189,14 @@ console.log((vector1).concat(vector2));
 let breakfast= ["Water","Milk","Sugar","Bread","Egg"];
 
 console.log(breakfast.join('+'));
+
+//Q#5
+//ToString & Concatenate
+
+let table1=['a','b','c','d'];
+let table2=['e','f','g','h'];
+
+console.log(table1.toString());
+console.log(table2.toString());
+
+console.log((table1).concat(table2));
