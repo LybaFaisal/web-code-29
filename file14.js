@@ -151,3 +151,19 @@ console.log("The correct order of Odd Numbers:");
 Array.pop();
 Array.pop();
 console.log(Array);
+
+//Q#2
+//Shifting & Unshifting Elements
+
+let characters=['a','b','c'];
+
+console.log("The three characters in the array are:");
+console.log(characters);
+
+console.log("The new character at the start is:");
+characters.unshift('new character');
+console.log(characters);
+
+characters.shift();
+console.log("Modified array:");
+console.log(characters);
