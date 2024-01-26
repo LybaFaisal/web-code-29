@@ -209,3 +209,12 @@ let j= 5;
 
 [i,j]=[j,i];
 console.log(i,j);
+
+//Q#7
+//Ignoring Values with Array Destructuring
+
+let points=[1,2,3,4,5,6,7];
+
+let[p,q,r, , ,u,v]=points;
+
+console.log(p,q,r,u,v);
