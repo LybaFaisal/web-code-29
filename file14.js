@@ -182,3 +182,10 @@ console.log(vector1);
 
 console.log("After concatenating both vectors:");
 console.log((vector1).concat(vector2));
+
+//q#4
+//joining array elements
+
+let breakfast= ["Water","Milk","Sugar","Bread","Egg"];
+
+console.log(breakfast.join('+'));
