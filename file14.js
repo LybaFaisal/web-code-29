@@ -200,3 +200,12 @@ console.log(table1.toString());
 console.log(table2.toString());
 
 console.log((table1).concat(table2));
+
+//Q#6
+//Swapping Using Array Destructuring
+
+let i= 4;
+let j= 5;
+
+[i,j]=[j,i];
+console.log(i,j);
