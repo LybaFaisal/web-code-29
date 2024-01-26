@@ -228,3 +228,18 @@ let [first,second, ...Others]=Novels;
 
 console.log(first,second);
 console.log(Others);
+
+//Q#9
+//String Array Transformation
+
+let word_str=["word1","word2","word3"];
+
+console.log("Initial string:");
+console.log(word_str);
+word_str.splice(1,1,"New Word");
+
+console.log("String after the replacement:");
+console.log(word_str);
+
+console.log("Array after using ToString Method");
+console.log(word_str.toString());
