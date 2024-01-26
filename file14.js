@@ -167,3 +167,18 @@ console.log(characters);
 characters.shift();
 console.log("Modified array:");
 console.log(characters);
+
+//Q#3
+//Splice & Concatenation
+
+let vector1=[10,20,30];
+let vector2=[40,50,60];
+
+console.log(vector1);
+vector1.splice(0,2,40,50);
+
+console.log("After splicing vector 1 becomes:");
+console.log(vector1);
+
+console.log("After concatenating both vectors:");
+console.log((vector1).concat(vector2));
