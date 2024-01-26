@@ -133,3 +133,21 @@ let[head, , , ...tail]=[10,2,3,20,30,40,50];
 
 console.log(head);
 console.log(tail);
+
+//Assignment From Chatgpt
+//Array manipulation with push & pop
+
+let Array=[];
+Array.push(2);
+Array.push(4);
+Array.push(6);
+Array.push(5);
+Array.push(7);
+
+console.log("The wrong order of Odd Numbers:");
+console.log(Array);
+
+console.log("The correct order of Odd Numbers:");
+Array.pop();
+Array.pop();
+console.log(Array);
