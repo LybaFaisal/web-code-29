@@ -243,3 +243,15 @@ console.log(word_str);
 
 console.log("Array after using ToString Method");
 console.log(word_str.toString());
+//Q#10
+//Combining Arrays of Booleans
+
+let sequence1=['True','False','True'];
+let sequence2=['False','True','False'];
+
+let combined_sequence= (sequence1).concat(sequence2);
+
+let joined_sequence=  combined_sequence.join(',');
+
+console.log(`Combined Sequence: ${combined_sequence}`);
+console.log(`Joined Sequence: ${joined_sequence}`);
