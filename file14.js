@@ -255,3 +255,22 @@ let joined_sequence=  combined_sequence.join(',');
 
 console.log(`Combined Sequence: ${combined_sequence}`);
 console.log(`Joined Sequence: ${joined_sequence}`);
+
+//Q#11
+//Array Destructuring - Swapping & Ignoring with Characters
+
+let var1='A';
+let var2='B';
+
+console.log(`The values before swapping: ${var1}  ${var2}`);
+
+[var1,var2]=[var2,var1]; //swap
+
+console.log(`The values after swapping: ${var1} ${var2}`);
+
+let var3=['a','b','c','d'];
+//ignoring values:
+console.log(`The values before ignoring: ${var3}`);
+let[l, , ,m]= var3;
+
+console.log(`The values after ignoring: ${l} ${m}`);
